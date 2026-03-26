@@ -1,1 +1,2 @@
-assets/videos/*.mp4
+# Exclude large hero.mp4 (100MB)
+assets/videos/hero.mp4
