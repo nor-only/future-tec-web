@@ -30,7 +30,7 @@
 
 <!-- Strengths -->
 <section class="sec">
-  <img src="assets/images/team.png" alt="チーム" class="feat-img rv">
+  <div class="feat-wrap rv"><img src="assets/images/team.png" alt="チーム" class="feat-img"></div>
   <div class="container">
     <div class="sec__head rv">
       <p class="sec__label">Our Strengths</p>
@@ -64,23 +64,11 @@
       <p class="sec__label">Numbers</p>
       <h2 class="sec__title">数字で見るフューチャーテック</h2>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--border);border-radius:8px;overflow:hidden;" class="rv">
-      <div style="background:var(--bg);padding:2.5rem;text-align:center;">
-        <div style="font-size:2.5rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">48+</div>
-        <div style="font-size:.75rem;color:var(--text-dim);margin-top:.5rem;">年のグループ実績</div>
-      </div>
-      <div style="background:var(--bg);padding:2.5rem;text-align:center;">
-        <div style="font-size:2.5rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">50+</div>
-        <div style="font-size:.75rem;color:var(--text-dim);margin-top:.5rem;">名のグループ技術者</div>
-      </div>
-      <div style="background:var(--bg);padding:2.5rem;text-align:center;">
-        <div style="font-size:2.5rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">3</div>
-        <div style="font-size:.75rem;color:var(--text-dim);margin-top:.5rem;">つの技術領域</div>
-      </div>
-      <div style="background:var(--bg);padding:2.5rem;text-align:center;">
-        <div style="font-size:2.5rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">2</div>
-        <div style="font-size:.75rem;color:var(--text-dim);margin-top:.5rem;">県をカバーする拠点</div>
-      </div>
+    <div class="stat-grid rv">
+      <div class="stat"><div class="stat__num">48+</div><div class="stat__label">年のグループ実績</div></div>
+      <div class="stat"><div class="stat__num">50+</div><div class="stat__label">名のグループ技術者</div></div>
+      <div class="stat"><div class="stat__num">3</div><div class="stat__label">つの技術領域</div></div>
+      <div class="stat"><div class="stat__num">2</div><div class="stat__label">県をカバーする拠点</div></div>
     </div>
   </div>
 </section>
